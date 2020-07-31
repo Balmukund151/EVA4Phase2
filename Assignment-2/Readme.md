@@ -8,6 +8,7 @@ Max Accuracy= 89.26% in 11th Epoch
 
 
 1. Code Overview-
+
 	a) dataloaders.py -  contains the dataloaders and transforms for train & test.
 	
 	b) graphs_and_other_utility_functions.py - contains the basic utility functions like plotting, getting LR etc required for execution
