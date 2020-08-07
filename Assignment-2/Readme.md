@@ -21,10 +21,14 @@ Max Accuracy= 89.26% in 11th Epoch
 5. Misclassified Images from each category:-  
 
 'Flying Birds'=0  'Large QuadCopters'=1 'Small QuadCopters'=2 'Winged Drones'=3
-	
-	
 
-	![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-2/misclassifed-bird-drone.jpg)
+
+
+
+
+![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-2/misclassifed-bird-drone.jpg)
+
+
 
 
 
