@@ -20,7 +20,7 @@ Max Accuracy= 89.26% in 11th Epoch
 	![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-2/Test_Accuracy_and_Test_Loss.png)
 5. Misclassified Images from each category:-  
 
-'Flying Birds'=0  'Large QuadCopters'=1 'Small QuadCopters'=2 'Winged Drones'=3
+'Flying Birds'=0 , 'Large QuadCopters'=1 , 'Small QuadCopters'=2 , 'Winged Drones'=3
 
 
 
