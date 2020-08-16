@@ -1,0 +1,60 @@
+service: facealign
+
+provider:
+  name: aws
+  runtime: python3.7
+  stage: dev
+  region: ap-south-1
+  timeout: 60
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - s3:getObject
+      Resource: "arn:aws:s3:::mobilenetv2/*"
+
+  environment:
+    S3_BUCKET: model-mobilenetv2
+    MODEL_PATH: mobileNetV2.pt
+    #LANDMARK_68_DETECTOR_PATH:  shape_predictor_68_face_landmarks.dat
+
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+    zip: true
+    slim: true
+    strip: false
+    noDeploy:
+      - docutils
+      - jmespath
+      - pip
+      - python-dateutil
+      - setuptools
+      - six
+      - tensorboard
+
+
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+    - cache/**
+    - test/**
+    - __pycache__/**
+    - model/**
+
+functions:
+  align_face:
+    handler: handler.align_face
+    memorySize: 3008
+    events:
+      - http:
+          path: align
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements

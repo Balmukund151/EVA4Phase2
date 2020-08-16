@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+<body>
+	<div class="grid-x grid-margin-x" style="margin-top:2%;">
+		<div class="large-l2 cell">
+			<h4 style="text-align: center;" id='imageClassifiersResnet34'>Image Classification(Resnet34)</h4>
+		</div>
+		<div class="large-4 cell">
+			<label for="resnet34FileUpload">Please choose image file you want to classify.</label>
+			<input type="file" id="resnet34FileUpload">
+		</div>
+		<div class="large-8 cell">
+			<input type="button" id="btnResNetUpload" class="button" value="Classify Image">
+		</div>
+		<div>
+			<p id="resnet34Result"></p>
+		</div>
+	</div>
+	
+	<div class="grid-x grid-margin-x" style="margin-top:2%;">
+		<div class="large-l2 cell">
+			<h4 style="text-align: center;" id='imageClassifiersCustomMobileNetV2'>Image Classification(Custom-MobileNetV2)</h4>
+		</div>
+		<div class="large-4 cell">
+			<label for="mobilenetv2FileUpload">Please choose image file you want to classify.</label>
+			<input type="file" id="mobilenetv2FileUpload">
+		</div>
+		<div class="large-8 cell">
+			<input type="button" id="btnMobilenetv2Upload" class="button" value="Classify Image">
+		</div>
+		<div>
+			<p id="mobilenetv2Result"></p>
+		</div>
+	</div>
+	
+	
+	<div class="grid-x grid-margin-x" style="margin-top:2%;">
+		<div class="large-l2 cell">
+			<h4 style="text-align: center;" id='alignImage'>Align Image</h4>
+		</div>
+		<div class="large-4 cell">
+			<label for="dlibImageAlign">Please choose image file you want to Align.</label>
+			<input type="file" id="dlibImageAlign" src="#">
+			<!--<img id="blah" src="#" alt="your image" />-->
+		</div>
+		<div class="large-8 cell">
+			<input type="button" id="btAlignImageUpload" class="button" value="Align Image">
+		</div>
+		<div style="display:flex; justify-content:flex-start;">
+		    <div style="flex:1;">
+		    <img style="height:300px;width:300px" id="blah" src="#" alt="your image" />
+			</div>
+			<div style="flex:1;">
+			<p style="background-image:no-repeat;" id="alignImageResult"></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="grid-x grid-margin-x" style="margin-top:2%;">
+		<div class="large-l2 cell">
+			<h4 style="text-align: center;" id='alignImage'>Swap Face</h4>
+		</div>
+		<div class="large-4 cell">
+			<label for="dlibSwapFace1">Please choose 1st Face.</label>
+			<input type="file" id="dlibSwapFace1" src="#">
+			<!--<img id="blah" src="#" alt="your image" />-->
+		</div>
+		<div class="large-4 cell">
+			<label for="dlibSwapFace2">Please choose 2nd Face.</label>
+			<input type="file" id="dlibSwapFace2" src="#">
+			<!--<img id="blah" src="#" alt="your image" />-->
+		</div>
+		<div class="large-8 cell">
+			<input type="button" id="btSwapFaceUpload" class="button" value="Swap Face">
+		</div>
+		<div style="display:flex; justify-content:flex-start;">
+		    <div style="flex:1;">
+		    <img style="height:300px;width:300px" id="blah" src="#" alt="your image" />
+			</div>
+			<div style="flex:1;">
+			<p style="background-image:no-repeat;" id="swapFaceResult"></p>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="upload.js"></script>
+</html> 
