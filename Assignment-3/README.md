@@ -1,7 +1,9 @@
 
 **Table of Contents**
 
+Link to the static website for Resnet34, Customized MobileNetV2, Face Align and Face Swap
 
+http://model-mobilenetv2.s3-website.ap-south-1.amazonaws.com/
 
 # Resnet34 with AWS Deployment Code
 
