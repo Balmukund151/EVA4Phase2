@@ -213,7 +213,7 @@ $.ajax({
 	async: true,
 	crossDomain: true,
 	method: 'POST',
-	url: 'https://zgc6qbyssl.execute-api.ap-south-1.amazonaws.com/dev/face_identify',
+	url: 'https://xxxxxxxx.execute-api.ap-south-1.amazonaws.com/dev/face_identify',
 	data: formData,
 	processData: false,
 	contentType: false,
