@@ -7,4 +7,4 @@ Original Image
 
 with Human Pose Estimation
 
-![alt text] (https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-5/srk.jpg)
+![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-5/srk.jpg)
