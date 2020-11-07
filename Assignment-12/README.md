@@ -2,6 +2,8 @@ Image Captioning
 
 
 Ran Image Captioning on COCO dataset for 1 Full Epoch and it took 4hrs.
+
+
 Details are as below:-
 
 
@@ -24,16 +26,31 @@ Repository is divided into 3 folders:-
 Generated Captions for the Input Images:-
 
 
+Image-1
+
+
 ![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-12/Output/Captioned-Image-1.png)
+
+
+Image-2
 
 
 ![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-12/Output/Captioned-Image-2.png)
 
 
+Image-3
+
+
 ![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-12/Output/Captioned-Image-3.png)
 
 
+Image-4
+
+
 ![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-12/Output/Captioned-Image-4.png)
+
+
+Image-5
 
 
 ![alt text](https://github.com/Balmukund151/EVA4Phase2/blob/master/Assignment-12/Output/Captioned-Image-5.png)
